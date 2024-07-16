@@ -73,10 +73,14 @@ dependencies {
     implementation ("androidx.camera:camera-lifecycle:$camerax_version")
     implementation ("androidx.camera:camera-view:$camerax_version")
     implementation ("androidx.camera:camera-extensions:$camerax_version")
-    implementation ("androidx.compose.ui:ui:1.6.8")
-    implementation ("androidx.compose.material:material:1.6.8")
+    val material_version = "1.6.8"
+    implementation ("androidx.compose.ui:ui:$material_version")
+    implementation ("androidx.compose.material:material:$material_version")
+    implementation ("androidx.compose.material:material-icons-extended:$material_version")
+
     implementation ("androidx.compose.ui:ui-tooling:1.6.8")
     implementation ("androidx.activity:activity-ktx:1.9.0")
     implementation ("com.google.mlkit:pose-detection:18.0.0-beta4")
+    implementation ("com.google.mlkit:pose-detection-accurate:18.0.0-beta4")
 
 }
